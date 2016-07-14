@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-web-app1",
+  "version": "0.0.0",
+  "description": "NodejsWebApp1",
+  "main": "app.js",
+  "author": {
+    "name": "OscarAndres"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.5.3",
+    "socket.io": "^1.4.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}
